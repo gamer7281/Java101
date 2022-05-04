@@ -18,18 +18,23 @@ public class Main {
         switch (select) {
             case 1:
                 System.out.println("Toplam : " + (n1 + n2));
+                break;
             case 2:
                 System.out.println("Çıkarma : " + (n1 - n2));
+                break;
             case 3:
                 System.out.println("Çarpma : " + (n1 * n2));
+                break;
             case 4:
                 if (n2 != 0) {
                     System.out.println("Bölme : " + (n1 / n2));
                 } else {
                     System.out.println("Bir sayı 0'a bölünemez!");
                 }
+                break;
             default:
                 System.out.println("Yanlış seçim yaptınız. Tekrar deneyiniz.");
+                break;
         }
     }
 }
